@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.png' />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+
+    <title>GNT - ICO</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--Header-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                    <img class="navbar-brand__logo" src="images/logos.png" alt="GNT">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse  navbar-right" id="header">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#intro">Introdution</a></li>
+                        <li><a href="#paper">Whitepaper</a></li>
+                        <li><a href="#map">Roadmap</a></li>
+                        <li><a href="#co">ICO</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#meet">Meet Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Content-->
+        <div class="first-view">
+            <div class="wrap-first-view">
+                <div class="title-first-view text-center">
+                    <h1>A Rewards System to Distinguish Trustworthy Articles</h1>
+                    <h3>GNT is Japan's First Social Media Platform Using Blockchain Technology</h3>
+                </div>
+                <div class="info-token text-center">
+                    <div class="info-token-details">
+                        <div class="info-title">
+                            <div class="info-title-details">
+                                <span>Join our Tokensale Now!</span>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <!--countdown-->
+                        <div class="countdown countdown-container container">
+                            <div class="clock row">
+                                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-days" class="clock-canvas"></div>
+
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-days type-time">days</p>
+                                            </div>
+                                            <!-- /.text -->
+                                        </div>
+                                        <!-- /.inner -->
+                                    </div>
+                                    <!-- /.wrap -->
+                                </div>
+                                <!-- /.clock-item -->
+
+                                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-hours" class="clock-canvas"></div>
+
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-hours type-time">hours</p>
+                                            </div>
+                                            <!-- /.text -->
+                                        </div>
+                                        <!-- /.inner -->
+                                    </div>
+                                    <!-- /.wrap -->
+                                </div>
+                                <!-- /.clock-item -->
+
+                                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-minutes type-time">minutes</p>
+                                            </div>
+                                            <!-- /.text -->
+                                        </div>
+                                        <!-- /.inner -->
+                                    </div>
+                                    <!-- /.wrap -->
+                                </div>
+                                <!-- /.clock-item -->
+
+                                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-seconds type-time">seconds</p>
+                                            </div>
+                                            <!-- /.text -->
+                                        </div>
+                                        <!-- /.inner -->
+                                    </div>
+                                    <!-- /.wrap -->
+                                </div>
+                                <!-- /.clock-item -->
+
+                            </div>
+                            <div class="clear"></div>
+                            <!-- /.clock -->
+                        </div>
+                        <!-- /.countdown-wrapper -->
+                        <!-- /.countdown-wrapper -->
+                        <div class="graph-info-top">
+                            <div class="graph-status graph-top">
+                                <p>ICO Status(Max cap 1,000ETH): <span id="curr-eth" class="graph-status-color">0</span>ETH <span>(Min cap 200ETH)</span></p>
+                            </div>
+                            <div class="barGraphWrap graph-top">
+                                <div id="bar1" class="barfiller">
+                                    <span class="fill" data-percentage="31" style="background: rgb(22, 181, 151); width: 100px; transition: width 1s ease-in-out;"></span>
+                                    <span class="minNumPoint"></span>
+                                </div>
+                                <div class="barGraphNum Num0">0 ETH</div>
+                                <div class="barGraphNum Num0 barGraph-mobile">0 ETH</div>
+                                <div class="barGraphNum minNumPc">Min Cap 200ETH</div>
+                                <div class="barGraphNum minNumPc barGraph-mobile">200ETH</div>
+                                <div class="barGraphNum maxNum">Max Cap 1,000ETH</div>
+                                <div class="barGraphNum maxNum barGraph-mobile">1,000ETH</div>
+                            </div>
+                        </div>
+                        <div class="button-top">
+                            <a href="" id="contribute">Contribute in ether</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Introdution-->
+        <div id="intro" class="introdution">
+            <div class="wrap-introdution">
+                <div class="title-introdution text-center">
+                    <h1>What is Social Media?</h1>
+                    <p>Social media platform which provides our customers with reliable information from experts in no time.
+                        Their billions of evaluations to create a media platform specialized for the Japanese market. Our
+                        mission is to filter through the myriad of advertising and stealth marketing campaigns. Our goal
+                        is to provide more reliable information than traditional media outlets. Please read our whitepaper
+                        for further information.
+                    </p>
+                    <img src="images/img-introdution.png" alt="img-introdution">
+                </div>
+            </div>
+        </div>
+        <!--Whitepaper-->
+        <div id="paper" class="whitepaper">
+            <div class="wrap-whitepaper">
+                <div class="title-whitepaper text-center">
+                    <p>Our mission is to filter through the myriad of advertising and stealth marketing campaigns. Our goal
+                        is to provide more reliable information than traditional media outlets.
+                    </p>
+                    <button type="button" class="button-whitepaper">Read Whitepaper</button>
+                </div>
+            </div>
+        </div>
+        <div class="wave"></div>
+        <!--Roadmap-->
+        <div id="map" class="roadmap">
+            <div class="wrap-roadmap">
+                <div class="title-roadmap text-center">
+                    <h1>Roadmap</h1>
+                    <p class="description">A little context on the progress of GNT</p>
+                    <div class="col-roadmap">
+                        <div class="roadmap-01 text-left">
+                            <p class="year">Q2 - 2017</p>
+                            <ul>
+                                <li>Presale sold out! 38,800 ETH Raised (~$12 Million USD)</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-02 text-left">
+                            <p class="year">Q4 - 2017</p>
+                            <ul>
+                                <li>Java SDK</li>
+                                <li>Minecraft Plugin</li>
+                                <li>Mobile Smart Wallet (Core features)n</li>
+                                <li>Platform API</li>
+                                <li>Core Smart Contracts</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-03 text-left">
+                            <p class="year">Q1 - 2018</p>
+                            <ul>
+                                <li>Fully-featured Advertisers office</li>
+                                <li>Ad network API release, first ad network</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--ICO-->
+        <div id="co" class="ico">
+            <div class="wrap-ico">
+                <div class="title-ico text-center">
+                    <h1>ICO</h1>
+                    <p class="description">The GNT token sale on Ethereum begins on Sep 1st, 02:00 UTC. </br>
+                        GNT tokens on Ethereum will be offered in 3 price tiers.
+                    </p>
+                </div>
+                <div class="info-tier text-center">
+                    <div class="info-tier-details">
+                        <div class="product__infor--row">
+                            <div class="product__infor--row">
+                                <div class="product__infor--colum text-right">
+                                    Tier 1
+                                </div>
+                                <div class="product__infor--colum text-left">
+                                    <span class="product__time">From: Sep 1st, 02:00 UTC   -   To: Sep 8th, 01:59 UTC</span>                                    </br>
+                                    <span class="product__convert">Up to 2,000,000 EMT sold:1 EMT = 0.0007 ETH</span>
+                                </div>
+                            </div>
+                            <div class="product__infor--row">
+                                <div class="product__infor--colum text-right">
+                                    Tier 2
+                                </div>
+                                <div class="product__infor--colum text-left">
+                                    <span class="product__time">From: Sep 8th, 02:00 UTC   -   To: Sep 15th, 01:59 UTC</span>                                    </br>
+                                    <span class="product__convert">2,000,001 to 4,000,000 EMT sold:1 EMT = 0.00075 ETH</span>
+                                </div>
+                            </div>
+                            <div class="product__infor--row">
+                                <div class="product__infor--colum text-right">
+                                    Tier 3
+                                </div>
+                                <div class="product__infor--colum text-left">
+                                    <span class="product__time">From: Sep 22th, 02:00 UTC   -   To: Sep 29th, 01:59 UTC </span>                                    </br>
+                                    <span class="product__convert">4,000,001 to 27,000,000 EMT sold:1 EMT = 0.0008 ETH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="graph-status text-center">
+                    <p>ICO Status(Max cap 100,000ETH): <span class="graph-status-color">Min cap raised!!(30,000ETH)</span></p>
+                </div>
+                <div class="barGraphWrap">
+                    <div id="bar1" class="barfiller">
+                        <span class="fill" data-percentage="31" style="background: rgb(22, 181, 151); width: 100px; transition: width 1s ease-in-out;"></span>
+                        <span class="minNumPoint"></span>
+                    </div>
+                    <div class="barGraphNum Num0">0 ETH</div>
+                    <div class="barGraphNum Num0 barGraph-mobile">0 ETH</div>
+                    <div class="barGraphNum minNumPc">Min Cap 30,000ETH</div>
+                    <div class="barGraphNum minNumPc barGraph-mobile">30,000 ETH</div>
+                    <div class="barGraphNum maxNum">Max Cap 100,000ETH</div>
+                    <div class="barGraphNum maxNum barGraph-mobile">30,000 ETH</div>
+                </div>
+                <div class="wrap-distribution">
+                    <div class="title-distribution text-center">
+                        <div class="cp-left pi-left pi-middle">
+                            <img src="images/pie-chart.png" alt="img-introdution">
+                        </div>
+                        <div class="cp-left pi-right pi-middle text-left">
+                            <p>As for the ICO round - the funds will be utilized as follows:</p>
+                            <ul class="text-left">
+                                <li>
+                                    <div class="light-01"></div>
+                                    <div class="text-01">45% Marketing and area launches</div>
+                                </li>
+                                <li>
+                                    <div class="light-02"></div>
+                                    <div class="text-02">25% Product development and technology</div>
+                                </li>
+                                <li>
+                                    <div class="light-03"></div>
+                                    <div class="text-03">20% Legal issues and patents</div>
+                                </li>
+                                <li>
+                                    <div class="light-04"></div>
+                                    <div class="text-04">5% Operational team</div>
+                                </li>
+                                <li>
+                                    <div class="light-05"></div>
+                                    <div class="text-05">5% Community reward (We’ll reward the ambassadors and marketers of the community)</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Our Team-->
+        <div id="team" class="ourteam">
+            <div class="wrap-ourteam">
+                <div class="title-ourteam text-center">
+                    <h1>Our Team</h1>
+                    <section class="management">
+                        <div class="container row">
+                            <div class="col-lg-4 text-center">
+                                <img src="images/MrLam.jpg" title="Chairman" alt="Chairman">
+                                <h4 translate="about__ceo" class="ng-scope">Sir Alex Ferguson</h4>
+                                <p>Chairman &amp; CEO</p>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-4 text-center">
+                                <img src="images/MrHonda.jpg" title="COO" alt="COO">
+                                <h4>Jose Mourinho</h4>
+                                <p>COO</p>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-4 text-center">
+                                <img src="images/MrKondo.jpg" title="Nobuyasu Kondo" alt="Nobuyasu Kondo">
+                                <h4>Emily Clark</h4>
+                                <p>Board Member</p>
+                            </div>
+                            <div class="col-lg-4 text-center">
+                                <img src="images/MrShikishima.jpg" title="Tamehisa Shikishima" alt="Tamehisa Shikishima">
+                                <h4>Kristen Stewart</h4>
+                                <p>Board Member</p>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-4 text-center">
+                                <img src="images/MrBang.jpg" title="CTO" alt="CTO">
+                                <h4 translate="about__cto" class="ng-scope">Kit Harington</h4>
+                                <p>CTO</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </section>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div id="meet" class="footer">
+            <div class="wrap-footer">
+                <div class="title-footer social-network text-center">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank" class="facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="twitter"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="pinrest"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="youtube"></a>
+                        </li>
+                    </ul>
+                    <p>&copy; 2017 GNT Inc. All Rights Reserved </br>
+                        All trademarks referenced herein are the properties of their respective owners.
+                    </p>
+                    <div class="footer-languages">
+                        <span>Languages: </span>
+                        <select class="box-languages">
+                            <option value="english" selected="selected">English</option>
+                            <option value="japanese">Japanese</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Team-->
+        <div class="term">
+            <div class="wrap-term">
+                <div class="title-term text-center">
+                    <ul>
+                        <li>
+                            <a href="#">Term Of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/kinetic.js"></script>
+    <script type="text/javascript" src="js/jquery.final-countdown.js"></script>
+    <script type="text/javascript">
+        $('document').ready(function () {
+            'use strict';
+
+            $('.countdown').final_countdown({
+                'start': 1508046651,
+                'end': 1508133051,
+                'now': 1508046651
+            });
+            $("#contribute").click(function (event) {
+              event.preventDefault();
+
+              prompt("Send TEST ETH to:", '0xf9678a14ccd8b87e57cb515334b3b6e14ffdf4f9');
+            });
+            $("#curr-eth").load("/eth");
+        });
+    </script>
+</body>
+
+</html>

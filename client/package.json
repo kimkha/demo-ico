@@ -1,0 +1,24 @@
+{
+  "name": "gnt-htp",
+  "version": "1.0.0",
+  "description": "GNT home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-ui-router-anim-in-out": "^1.0.2",
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-minify": "0.0.15",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "watchify": "^3.9.0"
+  }
+}
